@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\0054361a-4c00-4230-bb6c-7d041d9d1006.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\0054361a-4c00-4230-bb6c-7d041d9d1006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\29a19bfd-1a53-431b-aeef-a9a24b935ca0.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\29a19bfd-1a53-431b-aeef-a9a24b935ca0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\85c1157f-e990-4704-ab39-6127a150cfcc.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\85c1157f-e990-4704-ab39-6127a150cfcc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\bbbf07f2-97c4-4344-bec3-6cb52a83382a.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\bbbf07f2-97c4-4344-bec3-6cb52a83382a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\e48713d8-9f08-40e8-a332-cc00f319e417.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\e48713d8-9f08-40e8-a332-cc00f319e417.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\CRM\\Crm-Backend\\CRM.API\\wwwroot\\active_pause\\fa31d068-328e-4647-94a8-08e3e4a0d3d0.jpg",
+      "PackagePath": "staticwebassets\\active_pause\\fa31d068-328e-4647-94a8-08e3e4a0d3d0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CRM.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CRM.API.props",
+      "PackagePath": "build\\CRM.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CRM.API.props",
+      "PackagePath": "buildMultiTargeting\\CRM.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CRM.API.props",
+      "PackagePath": "buildTransitive\\CRM.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

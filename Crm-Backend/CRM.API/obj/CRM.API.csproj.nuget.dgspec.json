@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\CRM.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\CRM.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\CRM.API.csproj",
+        "projectName": "CRM.API",
+        "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\CRM.API.csproj",
+        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\CRM.Application.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\CRM.Application.csproj"
+              },
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj"
+              },
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.15, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.15, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.22, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\CRM.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\CRM.Application.csproj",
+        "projectName": "CRM.Application",
+        "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\CRM.Application.csproj",
+        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj"
+              },
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj"
+              },
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.9, )"
+            },
+            "WatchDog.NET": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj",
+        "projectName": "CRM.Domain",
+        "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj",
+        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj",
+        "projectName": "CRM.Infrastructure",
+        "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\CRM.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Domain\\CRM.Domain.csproj"
+              },
+              "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.23.0, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj",
+        "projectName": "CRM.Utilities",
+        "projectPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\CRM.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

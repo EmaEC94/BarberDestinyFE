@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95B3CB43-30D3-423B-AC67-E0AA97284D9F}|docker-compose.dcproj|c:\\users\\emanuel\\documents\\proyectos emanuel esquivel\\proyectos emanuel\\barberdestinyfe\\crm-backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{95B3CB43-30D3-423B-AC67-E0AA97284D9F}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E50586C-B806-4CA7-8BC9-D051888DBF9E}|CRM.API\\CRM.API.csproj|c:\\users\\emanuel\\documents\\proyectos emanuel esquivel\\proyectos emanuel\\barberdestinyfe\\crm-backend\\crm.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E50586C-B806-4CA7-8BC9-D051888DBF9E}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E50586C-B806-4CA7-8BC9-D051888DBF9E}|CRM.API\\CRM.API.csproj|c:\\users\\emanuel\\documents\\proyectos emanuel esquivel\\proyectos emanuel\\barberdestinyfe\\crm-backend\\crm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E50586C-B806-4CA7-8BC9-D051888DBF9E}|CRM.API\\CRM.API.csproj|solutionrelative:crm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-18T02:24:13.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CRM.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\appsettings.Development.json",
+              "RelativeToolTip": "CRM.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T02:23:10.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CRM.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Emanuel\\Documents\\Proyectos Emanuel Esquivel\\Proyectos Emanuel\\BarberDestinyFE\\Crm-Backend\\CRM.API\\appsettings.json",
+              "RelativeToolTip": "CRM.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T02:22:41.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
